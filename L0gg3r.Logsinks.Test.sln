@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L0gg3r.LogSinks.Test", "src\L0gg3r.LogSinks.Test.csproj", "{A4F2A92B-D26F-4DA8-902E-00DE5478E5AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AC07B4AF-84A6-4E35-A4CD-E1F0497119C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestLogSinkTests", "TestLogSinkTests", "{AE826DA9-BBFD-4795-B016-AD9A883B95F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLogSinkTests", "tests\TestLogSinkTests\src\TestLogSinkTests.csproj", "{28A75DA4-0BDF-40D7-A237-77B78B81AECE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestLogSinkBuilderTests", "TestLogSinkBuilderTests", "{69087BA5-DDE0-4474-9F44-48866225E122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLogSinkBuilderTests", "tests\TestLogSinkBuilderTests\src\TestLogSinkBuilderTests.csproj", "{6A46935F-BB16-4F05-A3B6-D591DF164738}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogToExtensionMethodTests", "LogToExtensionMethodTests", "{BB03A1A5-6FDA-42F9-94A5-26CE44721716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogToExtensionMethodTests", "tests\LogToExtensionMethodTests\src\LogToExtensionMethodTests.csproj", "{4F5A18DE-36F0-45CF-9455-3FE480FB509D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4F2A92B-D26F-4DA8-902E-00DE5478E5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F2A92B-D26F-4DA8-902E-00DE5478E5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F2A92B-D26F-4DA8-902E-00DE5478E5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F2A92B-D26F-4DA8-902E-00DE5478E5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A75DA4-0BDF-40D7-A237-77B78B81AECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A75DA4-0BDF-40D7-A237-77B78B81AECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A75DA4-0BDF-40D7-A237-77B78B81AECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A75DA4-0BDF-40D7-A237-77B78B81AECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A46935F-BB16-4F05-A3B6-D591DF164738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A46935F-BB16-4F05-A3B6-D591DF164738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A46935F-BB16-4F05-A3B6-D591DF164738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A46935F-BB16-4F05-A3B6-D591DF164738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5A18DE-36F0-45CF-9455-3FE480FB509D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5A18DE-36F0-45CF-9455-3FE480FB509D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5A18DE-36F0-45CF-9455-3FE480FB509D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5A18DE-36F0-45CF-9455-3FE480FB509D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A724B74-55D0-4811-9A97-AA0E32DEECAF}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE826DA9-BBFD-4795-B016-AD9A883B95F9} = {AC07B4AF-84A6-4E35-A4CD-E1F0497119C6}
+		{28A75DA4-0BDF-40D7-A237-77B78B81AECE} = {AE826DA9-BBFD-4795-B016-AD9A883B95F9}
+		{69087BA5-DDE0-4474-9F44-48866225E122} = {AC07B4AF-84A6-4E35-A4CD-E1F0497119C6}
+		{6A46935F-BB16-4F05-A3B6-D591DF164738} = {69087BA5-DDE0-4474-9F44-48866225E122}
+		{BB03A1A5-6FDA-42F9-94A5-26CE44721716} = {AC07B4AF-84A6-4E35-A4CD-E1F0497119C6}
+		{4F5A18DE-36F0-45CF-9455-3FE480FB509D} = {BB03A1A5-6FDA-42F9-94A5-26CE44721716}
+	EndGlobalSection
+EndGlobal

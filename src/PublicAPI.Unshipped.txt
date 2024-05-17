@@ -1,0 +1,8 @@
+L0gg3r.LogSinks.Test.LogToExtensions
+L0gg3r.LogSinks.Test.TestLogSink
+L0gg3r.LogSinks.Test.TestLogSink.Clear() -> void
+L0gg3r.LogSinks.Test.TestLogSink.LogMessages.get -> System.Collections.Generic.IEnumerable<L0gg3r.Base.LogMessage>!
+L0gg3r.LogSinks.Test.TestLogSink.TestLogSink() -> void
+L0gg3r.LogSinks.Test.TestLogSinkBuilder
+static L0gg3r.LogSinks.Test.LogToExtensions.TestLogSink(this L0gg3r.Builder.LogTo! this) -> L0gg3r.Builder.LoggerBuilder!
+static L0gg3r.LogSinks.Test.LogToExtensions.TestLogSink(this L0gg3r.Builder.LogTo! this, System.Action<L0gg3r.LogSinks.Test.TestLogSinkBuilder!>! logSinkBuilder) -> L0gg3r.Builder.LoggerBuilder!
