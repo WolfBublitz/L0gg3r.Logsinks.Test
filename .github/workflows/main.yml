@@ -48,8 +48,9 @@ jobs:
   PublishToGithub:
     name: Publish to Github
     needs: [
-      LogtoExtensionMethodTests,
+      LogToExtensionMethodTests,
       TestLogSinkBuilderTests,
+      TestLogSinkTests,
     ]
     uses: ./.github/workflows/publish-to-github.yml
     with:
